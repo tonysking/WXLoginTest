@@ -1,0 +1,6 @@
+<!--pages/login/login.wxml-->
+<text>pages/login/login.wxml</text>
+
+<view>
+  <button type='primary' open-type='getUserInfo' bindgetuserinfo='doLogin'>微信登录</button>
+</view>

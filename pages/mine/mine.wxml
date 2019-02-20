@@ -1,0 +1,15 @@
+<!--pages/mine/mine.wxml-->
+<text>pages/mine/mine.wxml</text>
+<view class='container'>
+  <image class="face" src="{{avatarUrl}}"  ></image>
+  <label class='nickname'>{{userId}}</label>
+  <label class='nickname'>{{nickname}}</label>
+
+  <view class='container-row'>
+      <label class='info-items'>5 参与</label>
+      <label class='info-items'>2 发起</label>
+      <label class='info-items'>1 收藏</label>
+</view>
+</view>
+
+<view class="line"></view>

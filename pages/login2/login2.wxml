@@ -1,0 +1,11 @@
+<!--pages/login2/login2.wxml-->
+<text>pages/login2/login2.wxml</text>
+<view>
+  <button type='primary' open-type='getUserInfo' bindgetuserinfo='doLogin'>微信登录</button>
+</view>
+<view class="userinfo-nickname">
+  用户id:<text>{{backUserInfo.data.extend.userId}}</text></view>
+<view>
+  用户昵称：
+  <text class="userinfo-nickname">{{backUserInfo.data.extend.dec_userInfo.nickName}}    </text>
+</view>
